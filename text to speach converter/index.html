@@ -9,17 +9,21 @@
 </head>
 
 <body>
+    <!-- <audio class="listen-sound" src="woosh-260275.mp3"></audio> -->
+    <audio class="play-sound" src="beep.mp3"></audio>
+    <audio class="stop-sound" src="pause.mp3"></audio>
     <div class="hero">
         <h1>Text To Speech<span> Converter</span></h1>
-        <div class="animborder"> <textarea placeholder="Write anything here..."></textarea></div>
+        <div class="animborder"> <textarea class="textarea" placeholder="Write anything here..."></textarea></div>
 
         <div class="row">
             <select></select>
-            <button> <img src="play.png" alt="play-btn" class="img-btn"> Listen</button>
+            <button class="listen-btn"> <img src="play.png" alt="play-btn" class="img-btn"> Listen</button>
+            <button class="speak-btn"> <img src="microphone.png" alt="mic-btn" class="mic-btn">Start/Stop</button>
         </div>
     </div>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
